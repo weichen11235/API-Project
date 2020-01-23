@@ -52,11 +52,16 @@
   border-radius: 5px;
   width: 60px;
   background-color: white;
+  color: black;
   border: none;
-  padding: 3px 5px;
-  text-align: center; }
+  font-size: 13.3333px;
+  height: 22px;
+  padding: 3px 6px;
+  text-align: center;
+  text-decoration: none; }
 
 #jokePage {
+  visibility: hidden;
   padding: 0 20% 0;
   width: 100%;
   min-height: 100vh;
@@ -65,13 +70,13 @@
     font-size: 25px;
     text-align: center;
     padding: 30px 0; }
-  #jokePage a {
-    color: black; }
+    #jokePage h1 a {
+      color: black; }
   #jokePage #jokes {
     font-size: 13px;
     text-align: left; }
-  #jokePage p {
-    padding-bottom: 25px; }
+    #jokePage #jokes p {
+      padding-bottom: 25px; }
 
 @media (max-width: 769px) and (min-width: 415px) {
   #landing {
@@ -92,7 +97,8 @@
     padding: 6px; }
   #btn {
     width: 70px;
-    padding: 6px; }
+    padding: 6px;
+    height: 28px; }
   #jokePage h1 {
     font-size: 35px;
     padding: 45px 0; }
@@ -106,7 +112,7 @@
     padding-top: 60px;
     padding-left: 500px; }
     #landing::before {
-      background: url("../img/funnyStatue.jpg") no-repeat center center/cover; }
+      background: url("../img/funnyHorse.jpg") no-repeat center center/cover; }
     #landing h1 {
       font-size: 35px;
       padding-bottom: 25px; }
@@ -123,7 +129,8 @@
     padding: 6px; }
   #btn {
     width: 70px;
-    padding: 6px; }
+    padding: 6px;
+    height: 28px; }
   #jokePage h1 {
     font-size: 35px;
     padding: 45px 0; }
