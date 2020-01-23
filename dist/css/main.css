@@ -72,3 +72,62 @@
     text-align: left; }
   #jokePage p {
     padding-bottom: 25px; }
+
+@media (max-width: 769px) and (min-width: 415px) {
+  #landing {
+    padding-top: 60px; }
+    #landing h1 {
+      font-size: 35px;
+      padding-bottom: 25px; }
+    #landing #one {
+      font-size: 25px;
+      padding-bottom: 15px; }
+  /* form */
+  #multiple {
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 11px; }
+  #number {
+    width: 70px;
+    padding: 6px; }
+  #btn {
+    width: 70px;
+    padding: 6px; }
+  #jokePage h1 {
+    font-size: 35px;
+    padding: 45px 0; }
+  #jokePage #jokes {
+    font-size: 20px; }
+  #jokePage p {
+    padding-bottom: 60px; } }
+
+@media (min-width: 770px) {
+  #landing {
+    padding-top: 60px;
+    padding-left: 500px; }
+    #landing::before {
+      background: url("../img/funnyStatue.jpg") no-repeat center center/cover; }
+    #landing h1 {
+      font-size: 35px;
+      padding-bottom: 25px; }
+    #landing #one {
+      font-size: 25px;
+      padding-bottom: 15px; }
+  /* form */
+  #multiple {
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 11px; }
+  #number {
+    width: 70px;
+    padding: 6px; }
+  #btn {
+    width: 70px;
+    padding: 6px; }
+  #jokePage h1 {
+    font-size: 35px;
+    padding: 45px 0; }
+  #jokePage #jokes {
+    font-size: 20px; }
+  #jokePage p {
+    padding-bottom: 60px; } }
