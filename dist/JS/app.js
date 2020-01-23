@@ -30,6 +30,7 @@ function getMultiJoke(e){
     });
     jokes.innerHTML = joke;
     jokePage.style.visibility = "visible";
+    document.body.style.overflow = "auto";
   })
   .catch(err => console.log(err))
 
@@ -38,4 +39,5 @@ function getMultiJoke(e){
 goBack.addEventListener("click", clear);
 function clear(){
   jokePage.style.visibility = "hidden";
+  document.body.style.overflow = "hidden";
 }
