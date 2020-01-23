@@ -1,5 +1,4 @@
-  
-*{
+  *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -80,7 +79,7 @@
   background-color: #D7C342;
 
   h1{
-    font-size: 25px;
+    font-size: 15px;
     text-align: center;
     padding: 30px 0;
 
@@ -90,11 +89,11 @@
   }
   
   #jokes{
-    font-size: 13px;
+    font-size: 20px;
     text-align: left;
 
     p{
-      padding-bottom: 25px;
+      padding-bottom: 50px;
     }
   }
 }
@@ -129,14 +128,15 @@
   // section
   #jokePage{
     h1{
-      font-size: 35px;
+      font-size: 25px;
       padding: 45px 0;
     }
     #jokes{
-      font-size: 20px;
-    }
-    p{
-      padding-bottom: 60px;
+      font-size: 30px;
+
+      p{
+        padding-bottom: 75px;
+      }
     }
   }
 }
@@ -175,14 +175,15 @@
   // section
   #jokePage{
     h1{
-      font-size: 35px;
+      font-size: 25px;
       padding: 45px 0;
     }
     #jokes{
-      font-size: 20px;
-    }
-    p{
-      padding-bottom: 60px;
+      font-size: 30px;
+
+      p{
+        padding-bottom: 90px;
+      }
     }
   }
 }

@@ -22,10 +22,11 @@ submitBtn.addEventListener("click", getMultiJoke);
 
 function getMultiJoke(e){
  http.getMultiple(numOfJokes.value)
-  .then(data => {    
+  .then(data => {  
+    let num =1;  
     let joke = "";
     data.forEach(element => {
-      joke += `<p>${element.joke}</p>`
+      joke += `<p>${num++}. ${element.joke}</p>`
     });
     jokes.innerHTML = joke;
     jokePage.style.visibility = "visible";
