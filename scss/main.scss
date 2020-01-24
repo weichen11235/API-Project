@@ -33,11 +33,11 @@ body{
     font-size: 25px;
     padding-bottom: 16px;
   }
-  #one{
+  h3{
     font-size: 15px;
     padding-bottom: 11px;
 
-    a{
+    #one{
       text-decoration: none;
       color: white; 
     }
@@ -81,13 +81,14 @@ body{
 
 // section
 #jokePage{
-  visibility: hidden;
   padding: 0 20% 0;
   width: 100%;
   min-height: 100vh;
   background-color: #D7C342;
 
   h1{
+    position: sticky;
+    top: 0;
     font-size: 15px;
     text-align: center;
     padding: 30px 0;
@@ -114,7 +115,7 @@ body{
       font-size: 35px;
       padding-bottom: 25px;
     }
-    #one{
+    h3{
       font-size: 25px;
       padding-bottom: 15px;
   }
@@ -161,7 +162,7 @@ body{
       font-size: 35px;
       padding-bottom: 25px;
     }
-    #one{
+    h3{
       font-size: 25px;
       padding-bottom: 15px;
   }

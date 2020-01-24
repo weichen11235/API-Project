@@ -13,7 +13,6 @@ function getOneJoke(){
   .then(data => {    
     let joke = `<p>${data.joke}</p>`;
     jokes.innerHTML = joke;
-    jokePage.style.visibility = "visible";
   })
   .catch(err => console.log(err))
 }
@@ -29,7 +28,6 @@ function getMultiJoke(e){
       joke += `<p>${num++}. ${element.joke}</p>`
     });
     jokes.innerHTML = joke;
-    jokePage.style.visibility = "visible";
     document.body.style.overflow = "auto";
   })
   .catch(err => console.log(err))
@@ -38,6 +36,5 @@ function getMultiJoke(e){
 
 goBack.addEventListener("click", clear);
 function clear(){
-  jokePage.style.visibility = "hidden";
   document.body.style.overflow = "hidden";
 }
