@@ -73,8 +73,6 @@ body {
   min-height: 100vh;
   background-color: #D7C342; }
   #jokePage h1 {
-    position: sticky;
-    top: 0;
     font-size: 15px;
     text-align: center;
     padding: 30px 0; }
@@ -85,6 +83,12 @@ body {
     text-align: left; }
     #jokePage #jokes p {
       padding-bottom: 50px; }
+  #jokePage #arrow {
+    color: black;
+    display: none;
+    position: fixed;
+    left: 25px;
+    bottom: 25px; }
 
 @media (max-width: 769px) and (min-width: 415px) {
   #landing {
@@ -113,14 +117,17 @@ body {
   #jokePage #jokes {
     font-size: 30px; }
     #jokePage #jokes p {
-      padding-bottom: 75px; } }
+      padding-bottom: 75px; }
+  #jokePage #arrow {
+    left: 50px;
+    bottom: 50px; } }
 
 @media (min-width: 770px) {
   #landing {
     padding-top: 60px;
     padding-left: 500px; }
     #landing::before {
-      background: url("../img/funnyHorse.jpg") no-repeat center center/cover; }
+      background: url("../img/funnyStatue.jpg") no-repeat center center/cover; }
     #landing h1 {
       font-size: 35px;
       padding-bottom: 25px; }
@@ -145,4 +152,7 @@ body {
   #jokePage #jokes {
     font-size: 30px; }
     #jokePage #jokes p {
-      padding-bottom: 90px; } }
+      padding-bottom: 90px; }
+  #jokePage #arrow {
+    left: 200px;
+    bottom: 50px; } }

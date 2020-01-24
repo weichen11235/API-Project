@@ -1,4 +1,5 @@
 const http = new Http();
+// const arrow = document.querySelector("#arrow");
 const goBack = document.getElementById("goBack");
 const oneJokeBtn = document.getElementById("one");
 const numOfJokes = document.getElementById("number");
@@ -29,12 +30,15 @@ function getMultiJoke(e){
     });
     jokes.innerHTML = joke;
     document.body.style.overflow = "auto";
+    arrow.style.display = "inline";
   })
   .catch(err => console.log(err))
 
 }
 
 goBack.addEventListener("click", clear);
+arrow.addEventListener("click", clear);
 function clear(){
   document.body.style.overflow = "hidden";
+  arrow.style.display = "none";
 }

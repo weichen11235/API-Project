@@ -1,4 +1,4 @@
-$('#btn, #one, #goBack').on('click', function(event) {
+$('#btn, #one, #goBack, #arrow').on('click', function(event) {
   if (this.hash !== '') {
     event.preventDefault();
     const hash = this.hash;
